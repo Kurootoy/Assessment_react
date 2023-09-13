@@ -2,11 +2,11 @@ const Homepage_normal =()=>{
     return(
         <div>
             <div className="text-box">
-                <p>
-                    Generation Thialand
+                <h1>
+                    Generation Thialand <br></br>
                     React Assessment
-                </p>
-            <div>
+                </h1>
+            <div className="button-normal">
                 <button>User Home Page</button>
                 <button>Addin Home Sector</button>
             </div>

@@ -1,0 +1,32 @@
+nav {
+  background-color: beige;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.button-normal{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin: 50px;
+}
+.box-owner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+/* Owner.css */
+.img-owner img {
+    width: 500px; /* Adjust the width to your desired size */
+    height: auto; /* This maintains the image's aspect ratio */
+  }
+  

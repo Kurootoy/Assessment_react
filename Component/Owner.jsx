@@ -1,10 +1,17 @@
+import Layout from "./Layout";
+
 const Owner = () => {
   return (
     <div>
-      <div>
+      <Layout />
+      <div className="box-owner">
         <h1>Jame ssssss</h1>
-        <div>
-          <img src="https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg.webp"></img>
+        <div className="img-owner">
+          <img
+            src="https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg.webp"
+            alt="This is image"
+            
+          ></img>
         </div>
         <div>
           <p>This is paragraph</p>
