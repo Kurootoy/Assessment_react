@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Homepage_normal = () => {
+const HomepageNormal = () => {
   return (
     <div className="homepage">
       <div className="text-box">
@@ -13,11 +13,12 @@ const Homepage_normal = () => {
             <button>User Home Sector</button>
           </Link>
           <Link to="/add-home-sector">
-            <button>Addmin Home Sector</button>
+            <button>Admin Home Sector</button>
           </Link>
         </div>
       </div>
     </div>
   );
 };
-export default Homepage_normal;
+
+export default HomepageNormal;

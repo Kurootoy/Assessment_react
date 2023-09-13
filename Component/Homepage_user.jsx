@@ -1,31 +1,43 @@
-import Layout from "./Layout";
+
 import { Link } from "react-router-dom";
-const Homepage_user = () => {
+import Layout from "./Layout";
+
+const HomepageAdmin = () => {
   return (
-    <div>
-      <Layout />
+    <Layout>
       <div className="homepage">
-      <div className="text-box">
-        <p>This is User !!!!!!!!!!!!!!!!!!!!</p>
-        <div className="button-normal">
-        <Link to="/user-home">
-          <button>User Home Sector</button>
-          </Link>
-          <button>Admin Home Sector</button>
-        </div>
-        <div className="Table-user">
-          <table >
-            <tr>
-              <th>Name</th>
-              <th>Lastname</th>
-              <th>Position</th>
-            </tr>
-            
-          </table>
+        <div className="text-box">
+          <h1>USER SECTOR</h1>
+          <div className="button-normal">
+            <Link to="/">
+              <button>Go Back to Main Page</button>
+            </Link>
+            <Link to="/add-home-sector">
+              <button>User Admin Sector</button>
+            </Link>
+          </div>
+          <div className="table-user">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Lastname</th>
+                  <th>Position</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Name user</td>
+                  <td>Lastname</td>
+                  <td>Position</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
+    </Layout>
   );
 };
-export default Homepage_user;
+
+export default HomepageAdmin;

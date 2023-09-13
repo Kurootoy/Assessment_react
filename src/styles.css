@@ -1,7 +1,8 @@
 /* Common Styles */
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
+
 nav {
   background-color: beige;
   display: flex;
@@ -52,7 +53,8 @@ nav {
 
 .table-user,
 th,
-tr {
+tr,
+td {
   border: 1px solid black;
 }
 
@@ -64,15 +66,18 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-.text-in-admin{
+
+.text-in-admin {
   display: flex;
 }
-.input-admin{
+
+.input-admin {
   display: flex;
-  gap:25px;
+  gap: 25px;
   margin: 20px;
 }
-.table-admin{
+
+.table-admin {
   display: flex;
   justify-content: center;
 }

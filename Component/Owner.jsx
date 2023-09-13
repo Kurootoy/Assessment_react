@@ -1,3 +1,4 @@
+
 import Layout from "./Layout";
 
 const Owner = () => {
@@ -9,12 +10,11 @@ const Owner = () => {
         <div className="img-owner">
           <img
             src="https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg.webp"
-            alt="This is image"
-            
-          ></img>
+            alt="This is an image"
+          />
         </div>
         <div>
-          <p>This is paragraph</p>
+          <p>This is a paragraph.</p>
           <p>
             Vulputate congue potenti diam. Velit dictumst convallis ultrices
             egestas facilisi nisi montes tempor porttitor auctor. Nisi accumsan
@@ -31,4 +31,5 @@ const Owner = () => {
     </div>
   );
 };
+
 export default Owner;
