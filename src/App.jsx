@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import Layout from '../Component/Layout'
 import Homepage_normal from '../Component/Homepage_normal'
 
@@ -15,3 +15,4 @@ function App() {
 }
 
 export default App
+
