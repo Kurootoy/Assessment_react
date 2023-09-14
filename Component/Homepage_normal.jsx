@@ -10,7 +10,7 @@ const HomepageNormal = () => {
         </h1>
         <div className="button-normal">
           <Link to="/user-home">
-            <button>User Home Sector</button>
+            <button >User Home Sector</button>
           </Link>
           <Link to="/add-home-sector">
             <button>Admin Home Sector</button>

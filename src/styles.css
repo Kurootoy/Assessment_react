@@ -1,4 +1,4 @@
-/* Common Styles */
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -45,10 +45,9 @@ nav {
   align-items: center;
 }
 
-/* Owner.css */
 .img-owner img {
-  width: 500px; /* Adjust the width to your desired size */
-  height: auto; /* This maintains the image's aspect ratio */
+  width: 500px; 
+  height: auto;
 }
 
 .table-user,
@@ -75,9 +74,20 @@ button {
   display: flex;
   gap: 25px;
   margin: 20px;
+  flex-direction: column;
 }
 
 .table-admin {
   display: flex;
   justify-content: center;
+}
+form{
+  display: flex;
+  gap: 25px
+  ;
+}
+button:active{
+transform: scale(0.9) rotate(3deg);
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+transition: 0.5s;
 }

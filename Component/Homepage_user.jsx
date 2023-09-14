@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Layout from "./Layout";
 
@@ -7,7 +6,10 @@ const HomepageAdmin = () => {
     <Layout>
       <div className="homepage">
         <div className="text-box">
-          <h1>USER SECTOR</h1>
+          <h1>
+            Generation Thailand<br></br>
+            Home - Admin Sector
+          </h1>
           <div className="button-normal">
             <Link to="/">
               <button>Go Back to Main Page</button>
