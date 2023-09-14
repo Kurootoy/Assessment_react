@@ -34,7 +34,7 @@ const HomepageAdmin = () => {
                   <td>Position</td>
                 </tr>
               </tbody>
-            </table>
+            </table> 
           </div>
         </div>
       </div>
